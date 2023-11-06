@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    /* background: rgb(240, 240, 240); */
+    background-image: url('../imgs/5.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    height: 150px;
+    background-image: url('../imgs/fondo.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark{
+    background: #4BC2BD!important;
+    border-bottom: solid 3px;
+}
+
+.descripcion{
+    background: rgba(0, 0, 0, 0.37);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #BDD7B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.error{
+    color:red;
+}
+
+#contenedorCita{
+    background-image: url('../imgs/4.jpg');
+    background-size: 100% 100%;
+}
+
+#contenedorCita .contenedor{
+    border-radius: 5px;
+    border: solid 1px cyan;
+    padding: 35px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.377);
+}
+
+#cabecera_cita{
+    display: flex;
+}
+
+#reloj{
+    margin-left: 15px;
+}

@@ -1,0 +1,47 @@
+#formWizard{
+    height: auto!important;
+}
+
+.body.current{
+}
+
+.steps.clearfix ul li a{
+    font-size: 0.7rem;
+}
+
+.steps.clearfix ul li.current a{
+    background: #4BC2BD!important;
+}
+
+.content.clearfix{
+    padding-top: 15px;
+    border:solid 1px #4BC2BD;
+    background: white;
+    overflow: auto;
+}
+
+
+.content.clearfix legend{
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: rgb(80, 80, 80)!important;
+}
+
+.content.clearfix p{
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+.content.clearfix fieldset{
+    padding: 15px!important;
+}
+
+.actions.clearfix ul li.disabled a{
+    background: #f3f3f3!important;
+}
+
+.actions.clearfix ul li a{
+    background: #4BC2BD!important;
+}

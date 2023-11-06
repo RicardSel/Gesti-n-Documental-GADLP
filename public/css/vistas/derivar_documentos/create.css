@@ -1,0 +1,31 @@
+.contenedor_adjuntos {
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+span.eliminar {
+    cursor: pointer;
+    margin-left: 7px;
+    color: rgb(235, 74, 74);
+}
+
+.contenedor_documentacion .contenedor_doc {
+    display: flex;
+}
+
+.contenedor_adjuntos .eliminar {
+    cursor: pointer;
+    margin-left: 7px;
+    color: rgb(235, 74, 74);
+}
+
+.contenedor_documentacion .contenedor_doc .eliminar {
+    cursor: pointer;
+    margin-left: 7px;
+    color: rgb(235, 74, 74);
+}
+
+.contenedor_documentacion .adjunto span {
+    cursor: pointer;
+    color: rgb(0, 107, 207);
+}
